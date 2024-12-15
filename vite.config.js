@@ -6,3 +6,4 @@ export default defineConfig({
   base: '/Soc_project/', // замените на имя вашего репозитория
   plugins: [react()]
 });
+ 
