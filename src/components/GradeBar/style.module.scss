@@ -1,0 +1,56 @@
+.gradeBar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+}
+
+
+
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    position: relative; 
+}
+
+.buttonsContainer {
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: aquamarine;
+    width: 65px;
+    height: 40px;
+    transition: background-color 0.3s ease; 
+}
+
+
+.activeBtn {
+    background-color: rgb(95, 157, 137); 
+    color: white;
+}
+
+.variant {
+    display: none;
+    padding: 25px 50px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    margin-top: 10px; 
+    width: 70%;
+    position: relative; 
+}
+
+.active {
+    display: block; 
+    margin-top: 10px; 
+}

@@ -1,0 +1,11 @@
+:root {
+    // --textColor: #222222;
+    // --accent: #FF385C;
+
+    --font-family: 'Poppins', sans-serif;
+}
+
+body {
+    color: var(--textColor);
+    font-family: var(--font-family);
+}

@@ -1,0 +1,16 @@
+.main__body {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;    
+    text-align: center;
+}
+
+.showVariantsButton {
+    font-weight: bold;
+    margin: 0 auto; 
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 10px;
+}    
